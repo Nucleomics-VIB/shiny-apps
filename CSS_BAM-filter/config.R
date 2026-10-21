@@ -1,5 +1,5 @@
 # edit the line below to point to the 'Uploads' folder present in the shiny App folder 
-uploads <- "~/git_repos/Nucleomics-VIB/Shiny-apps/CSS_BAM-filter/Uploads"	
+uploads <- "~/git_repos/Nucleomics-VIB/shiny-apps/CSS_BAM-filter/Uploads"	
 
 # install the required dependencies
 # samtools
