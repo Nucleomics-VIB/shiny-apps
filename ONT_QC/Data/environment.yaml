@@ -12,3 +12,6 @@ dependencies:
   - rstudio
   - nanopore-r-basicqc
   - r-fastmatch
+  # eMudhra CA incident (2026-10-20, #3): fixed CA bundle from conda-forge.
+  # No certifi floor: certifi 2026.10.19 needs python >=3.10, and this env pins python 3.6.
+  - conda-forge::ca-certificates>=2026.10.19
